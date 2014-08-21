@@ -1,0 +1,53 @@
+{
+   "abstract" : "RedisDB based cache system",
+   "author" : [
+      "binary.com <rakesh@binary.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.141520",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Cache-RedisDB",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "DateTime" : "0",
+            "JSON" : "0",
+            "Test::FailWarnings" : "0",
+            "Test::More" : "0",
+            "Test::Most" : "0.22"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "RedisDB" : "2.14",
+            "Sereal" : "0",
+            "perl" : "5.01"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Cache-RedisDB"
+      },
+      "homepage" : "https://github.com/binary-com/perl-Cache-RedisDB"
+   },
+   "version" : "0.01"
+}
