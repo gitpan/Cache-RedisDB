@@ -28,4 +28,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Cache-RedisDB
   homepage: https://github.com/binary-com/perl-Cache-RedisDB
-version: '0.01'
+version: '0.02'
