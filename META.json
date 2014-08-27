@@ -5,8 +5,12 @@
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.141520",
+   "keywords" : [
+      "cache",
+      "redisdb"
+   ],
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -23,31 +27,40 @@
       "build" : {
          "requires" : {
             "DateTime" : "0",
+            "Digest::SHA" : "0",
             "JSON" : "0",
+            "Test::Differences" : "0.61",
             "Test::FailWarnings" : "0",
-            "Test::More" : "0",
-            "Test::Most" : "0.22"
+            "Test::More" : "0.96",
+            "Test::Most" : "0.22",
+            "Test::TCP" : "1.17"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "ExtUtils::MakeMaker" : "6.3002"
          }
       },
       "runtime" : {
          "requires" : {
             "RedisDB" : "2.14",
             "Sereal" : "0",
-            "perl" : "5.01"
+            "perl" : "5.008004"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Cache-RedisDB"
+         "web" : "https://github.com/binary-com/perl-Cache-RedisDB/issues"
       },
-      "homepage" : "https://github.com/binary-com/perl-Cache-RedisDB"
+      "homepage" : "https://github.com/binary-com/perl-Cache-RedisDB",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
    },
-   "version" : "0.02"
+   "version" : "0.03",
+   "x_contributors" : [
+      "Rakesh Kumar Shardiwal <shardiwal@cpan.org>"
+   ]
 }
